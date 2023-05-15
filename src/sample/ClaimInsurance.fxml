@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#Paid" prefHeight="490.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClaimInsuranceController">
+   <children>
+      <Label layoutX="130.0" layoutY="29.0" text="Insurance Record" textFill="#c91ba9">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <VBox layoutX="51.0" layoutY="110.0" prefHeight="268.0" prefWidth="158.0">
+         <children>
+            <Label text="Patient Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputName" />
+            <Label text="Patient ID">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputId" />
+            <Label text="Patient Age">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputAge" />
+            <Label text="Patient Gender">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputGender" />
+            <Label text="Patient Phone#">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputPh" />
+         </children>
+      </VBox>
+      <VBox layoutX="244.0" layoutY="110.0" prefHeight="176.0" prefWidth="158.0">
+         <children>
+            <Label text="Insurance Id">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputInsurance" />
+            <Label text="Company">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputCompany" />
+            <Label text="Title">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputTitle" />
+            <Label>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="425.0" layoutY="120.0" prefHeight="268.0" prefWidth="158.0">
+         <children>
+            <Label text="Policy Id">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputPolicy" />
+            <Label text="Description">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputDescription" />
+            <Label text="Percentage">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputPercentage" />
+            <Label>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <TextField fx:id="inputBill" layoutX="249.0" layoutY="388.0" />
+      <TextField fx:id="inputNewBill" layoutX="245.0" layoutY="451.0" />
+      <Label layoutX="282.0" layoutY="351.0" text="Old Bill">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="424.0" text="New Bill">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="513.0" layoutY="401.0" mnemonicParsing="false" onAction="#Calculate" text="Calculate" />
+      <Button layoutX="520.0" layoutY="445.0" mnemonicParsing="false" onAction="#Paid" text="Pay" />
+      <ImageView fitHeight="92.0" fitWidth="92.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pic/healthcare-administrator.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="97.0" layoutX="505.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pic/Hospinagement.png" />
+         </image>
+      </ImageView>
+      
+      
+   </children>
+</AnchorPane>

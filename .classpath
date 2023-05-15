@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/data"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javafx"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sdk"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/nusra/Desktop/mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hiberante Lib"/>
+	<classpathentry kind="lib" path="C:/temp/javafx-sdk-19/lib/javafx.graphics.jar" rootpath="." sourcepath="C:/temp/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/temp/javafx-sdk-19/lib/javafx.controls.jar" rootpath="." sourcepath="C:/temp/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/temp/javafx-sdk-19/lib/javafx.fxml.jar" rootpath="." sourcepath="C:/temp/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/temp/javafx-sdk-19/lib/javafx.base.jar" rootpath="." sourcepath="C:/temp/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

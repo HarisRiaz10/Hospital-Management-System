@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminReceptionCheck">
+   <children>
+      <ImageView fitHeight="617.0" fitWidth="598.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pic/me.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="679.0" layoutY="56.0" prefHeight="42.0" prefWidth="265.0" text="Name : Aaema Pirzada" textFill="#011402">
+         <font>
+            <Font size="20.0" />
+         </font>
+
+      </Label>
+      <Label layoutX="679.0" layoutY="82.0" prefHeight="42.0" prefWidth="192.0" text="BSCS in FAST">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="111.0" prefHeight="42.0" prefWidth="221.0" text="Semester : 5th">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="284.0" prefHeight="34.0" prefWidth="221.0" text="Project Name : " underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="677.0" layoutY="325.0" prefHeight="34.0" prefWidth="307.0" text="Hospital Management System">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="678.0" layoutY="359.0" prefHeight="34.0" prefWidth="221.0" text="Using : JavaFx + Mysql">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="677.0" layoutY="14.0" prefHeight="45.0" prefWidth="237.0" text="Information" textFill="#2e3772" underline="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="145.0" prefHeight="22.0" prefWidth="206.0" text="Phone : 03162086168">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="174.0" prefHeight="30.0" prefWidth="307.0" text="Email : i190509@nu.edu.pk">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+         
+      <Button layoutX="13.0" layoutY="15.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #66ffc2;" text="Back" />
+   </children>
+</AnchorPane>

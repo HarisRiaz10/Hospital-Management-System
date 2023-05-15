@@ -1,0 +1,7 @@
+Id:  1 Type:  Medical Name:  xyz Rooms:  49 Cost:  5000
+Id:  2 Type:  Medical Name:  xyz1 Rooms:  44 Cost:  15000
+Id:  3 Type:  General Name:  xyz2 Rooms:  37 Cost:  20000
+Id:  4 Type:  General Name:  xyz3 Rooms:  38 Cost:  7000
+Id:  5 Type:  Surgical Name:  xyz4 Rooms:  43 Cost:  30000
+Id:  6 Type:  Surgical Name:  xyz5 Rooms:  49 Cost:  25000
+Id:  7 Type:  Surgical Name:  xyz9 Rooms:  2 Cost:  8000

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1080.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RoomAndFinancialInfo">
+    <children>
+        <Label layoutX="348.0" layoutY="96.0" prefHeight="17.0" prefWidth="70.0" text="Room No">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="175.0" prefHeight="21.0" prefWidth="70.0" text="Doctor Id">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="219.0" prefHeight="21.0" prefWidth="91.0" text="Doctor Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="257.0" text="Staff Id">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="297.0" text="Staff Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="341.0" text="Staff Work Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtRoomNo" layoutX="471.0" layoutY="94.0" />
+        <TextField fx:id="txtProblemType" layoutX="471.0" layoutY="134.0" />
+        <TextField fx:id="txtDoctorId" layoutX="471.0" layoutY="173.0" />
+        <TextField fx:id="txtDoctorName" layoutX="470.0" layoutY="216.0" />
+        <TextField fx:id="txtStaffId" layoutX="471.0" layoutY="255.0" />
+        <TextField fx:id="txtStaffName" layoutX="470.0" layoutY="297.0" />
+        <Label layoutX="342.0" layoutY="14.0" prefHeight="35.0" prefWidth="348.0" text="Room Information" underline="true">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="134.0" prefHeight="21.0" prefWidth="101.0" text="Problem Type">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtStaffWorkName" layoutX="471.0" layoutY="339.0" />
+        <Button layoutX="395.0" layoutY="447.0" mnemonicParsing="false" onAction="#SearchRoom" style="-fx-background-color: #1E90FF;" text="Search" />
+        <ImageView fitHeight="43.0" fitWidth="48.0" layoutX="400.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/search.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="1037.0" layoutY="5.0" mnemonicParsing="false" onAction="#Backmain" text="Back" />
+      <Button layoutX="501.0" layoutY="450.0" mnemonicParsing="false" onAction="#PatientTable" style="-fx-background-color: #1E90FF;" text="Patient Table" />
+      <ImageView fitHeight="51.0" fitWidth="74.0" layoutX="506.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pic/patient.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+Index:  1 Patient Id:  26 Insurance Id:  2 Policy No:  2 Insurance Status:  Claimed
+Index:  2 Patient Id:  34 Insurance Id:  3 Policy No:  1 Insurance Status:  Not Claimed
+Index:  3 Patient Id:  36 Insurance Id:  1 Policy No:  1 Insurance Status:  Not Claimed
+Index:  4 Patient Id:  35 Insurance Id:  4 Policy No:  3 Insurance Status:  Not Claimed
+Index:  5 Patient Id:  37 Insurance Id:  1 Policy No:  1 Insurance Status:  Not Claimed
+Index:  6 Patient Id:  43 Insurance Id:  2 Policy No:  2 Insurance Status:  Not Claimed
+Index:  7 Patient Id:  89 Insurance Id:  3 Policy No:  1 Insurance Status:  Claimed
+Index:  8 Patient Id:  56 Insurance Id:  3 Policy No:  1 Insurance Status:  Claimed
+Index:  9 Patient Id:  67 Insurance Id:  4 Policy No:  3 Insurance Status:  Claimed
+Index:  10 Patient Id:  100 Insurance Id:  3 Policy No:  1 Insurance Status:  Not Claimed

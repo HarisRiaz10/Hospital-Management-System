@@ -1,0 +1,5 @@
+Policy Id:  1 Policy Title:  checkup Policy Description:  company pays xyz you pay abc Percentage:  20
+Policy Id:  2 Policy Title:  ward Policy Description:  company pays xyz you pay abc Percentage:  40
+Policy Id:  1 Policy Title:  checkup Policy Description:  company pays xyz you pay abc Percentage:  20
+Policy Id:  3 Policy Title:  surgery Policy Description:  company pays xyz you pay abc Percentage:  30
+Policy Id:  1 Policy Title:  checkup Policy Description:  company pays xyz you pay abc Percentage:  20

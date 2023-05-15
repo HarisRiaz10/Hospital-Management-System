@@ -1,0 +1,14 @@
+Index:  37 Patient Id:  54 Ward Id:  5 Room No:  38 Registration Date:  2021-12-10 End Date:  2021-12-15
+Index:  38 Patient Id:  203 Ward Id:  4 Room No:  31 Registration Date:  2021-12-02 End Date:  2021-12-07
+Index:  39 Patient Id:  654 Ward Id:  3 Room No:  40 Registration Date:  2021-12-01 End Date:  2021-12-04
+Index:  40 Patient Id:  2934 Ward Id:  3 Room No:  39 Registration Date:  2021-12-02 End Date:  2021-12-06
+Index:  41 Patient Id:  2323 Ward Id:  5 Room No:  34 Registration Date:  2021-12-02 End Date:  2021-12-04
+Index:  42 Patient Id:  2356 Ward Id:  4 Room No:  29 Registration Date:  2021-12-02 End Date:  2021-12-06
+Index:  43 Patient Id:  253 Ward Id:  4 Room No:  28 Registration Date:  2021-12-02 End Date:  2021-12-06
+Index:  5 Patient Id:  100 Ward Id:  3 Room No:  48 Registration Date:  2021-12-09 End Date:  2021-12-13
+Index:  6 Patient Id:  256 Ward Id:  3 Room No:  46 Registration Date:  2021-12-03 End Date:  2021-12-24
+Index:  1 Patient Id:  56 Ward Id:  3 Room No:  38 Registration Date:  2021-12-02 End Date:  2021-12-06
+Index:  1 Patient Id:  67 Ward Id:  5 Room No:  45 Registration Date:  2021-12-02 End Date:  2021-12-06
+Index:  1 Patient Id:  34 Ward Id:  5 Room No:  44 Registration Date:  2021-12-01 End Date:  2021-12-05
+Index:  1 Patient Id:  98 Ward Id:  6 Room No:  50 Registration Date:  2021-12-03 End Date:  2021-12-06
+Index:  1 Patient Id:  100 Ward Id:  2 Room No:  45 Registration Date:  2021-12-01 End Date:  2021-12-04
